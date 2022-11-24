@@ -1,0 +1,20 @@
+name: "userfaultfd"
+description: "Rust bindings for the Linux userfaultfd functionality"
+third_party {
+  url {
+    type: HOMEPAGE
+    value: "https://crates.io/crates/userfaultfd"
+  }
+  url {
+    type: ARCHIVE
+    value: "https://static.crates.io/crates/userfaultfd/userfaultfd-0.5.0.crate"
+  }
+  version: "0.5.0"
+  # Dual-licensed, using the least restrictive per go/thirdpartylicenses#same.
+  license_type: NOTICE
+  last_upgrade_date {
+    year: 2022
+    month: 11
+    day: 16
+  }
+}
