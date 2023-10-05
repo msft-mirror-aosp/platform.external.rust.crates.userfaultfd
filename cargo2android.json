@@ -1,4 +1,7 @@
 {
-    "device": true,
-    "run": true
+  "device": true,
+  "run": true,
+  "dep-suffixes": {
+    "bitflags": "-1.3.2"
+  }
 }
